@@ -1,0 +1,104 @@
+[
+  {
+    "segment": "Personal_Care_Urban",
+    "rows": 82,
+    "metrics": {
+      "naive": {
+        "MAE": 70.75,
+        "RMSE": 263.400803592801
+      },
+      "arima": {
+        "MAE": 142.7808988173489,
+        "RMSE": 254.59397589211048
+      },
+      "random_forest": {
+        "MAE": 224.4116971340388,
+        "RMSE": 321.2204286813524,
+        "test_size": 60,
+        "features": [
+          "price_mean",
+          "promo_sum",
+          "supplier_cost_mean",
+          "lead_time_mean",
+          "stock_mean",
+          "dow",
+          "month",
+          "year",
+          "lag_1",
+          "lag_7",
+          "lag_14",
+          "roll_mean_7",
+          "roll_std_7"
+        ]
+      }
+    }
+  },
+  {
+    "segment": "Household_Rural",
+    "rows": 81,
+    "metrics": {
+      "naive": {
+        "MAE": 111.73333333333333,
+        "RMSE": 413.2788001660219
+      },
+      "arima": {
+        "MAE": 169.5434102136808,
+        "RMSE": 400.6279037157672
+      },
+      "random_forest": {
+        "MAE": 132.83339479717813,
+        "RMSE": 303.1100849448508,
+        "test_size": 60,
+        "features": [
+          "price_mean",
+          "promo_sum",
+          "supplier_cost_mean",
+          "lead_time_mean",
+          "stock_mean",
+          "dow",
+          "month",
+          "year",
+          "lag_1",
+          "lag_7",
+          "lag_14",
+          "roll_mean_7",
+          "roll_std_7"
+        ]
+      }
+    }
+  },
+  {
+    "segment": "Dairy_Suburban",
+    "rows": 77,
+    "metrics": {
+      "naive": {
+        "MAE": 168.93333333333334,
+        "RMSE": 499.3423007650497
+      },
+      "arima": {
+        "MAE": 227.87931873318286,
+        "RMSE": 478.1621079264659
+      },
+      "random_forest": {
+        "MAE": 232.86697901234564,
+        "RMSE": 411.57281349806,
+        "test_size": 60,
+        "features": [
+          "price_mean",
+          "promo_sum",
+          "supplier_cost_mean",
+          "lead_time_mean",
+          "stock_mean",
+          "dow",
+          "month",
+          "year",
+          "lag_1",
+          "lag_7",
+          "lag_14",
+          "roll_mean_7",
+          "roll_std_7"
+        ]
+      }
+    }
+  }
+]
